@@ -1,0 +1,103 @@
+You are an expert frontend web developer and UI/UX designer. Your task is to build a comprehensive, modern, and visually stunning single-page website for a real estate management company named Kibby KiB LLC.
+
+Tech Stack: Use React (Next.js preferred), Tailwind CSS for responsive styling, and Framer Motion (or standard CSS transitions) for smooth, premium scroll animations.
+
+Business Information:
+
+Name: Kibby KiB LLC
+
+Address: 304 Baltimore Ave, Folcroft PA 19032
+
+Phone: 833-310-4084
+
+Email: info@Kibbykib.com
+
+Design & UI/UX Guidelines:
+
+Color Palette (CRITICAL): Do NOT use heavy black backgrounds or dark mode. The theme must be Light, Airy, and Premium.
+
+Backgrounds: Use crisp white (#FFFFFF) and very subtle off-white/light gray (#F8FAFC or #F3F4F6) to separate sections.
+
+Primary Brand Color (Trust): Deep Navy Blue or Sapphire (#1E3A8A or #0F172A) for prominent headings, footer, and primary accents.
+
+Accent Color: A muted, premium gold or warm amber for secondary buttons or highlighting key icons to give it a high-end feel.
+
+Text: Use dark charcoal or slate gray for paragraph text (much softer and easier to read than pure black).
+
+Typography: Clean, modern sans-serif fonts (e.g., Inter, Poppins, or Roboto) for high readability and a corporate feel.
+
+Layout: Fully responsive (mobile-first approach) with generous padding and whitespace.
+
+Animations: Include subtle fade-ins and slide-ups as the user scrolls down the page.
+
+Page Architecture & Content:
+
+1. Navigation Bar (Sticky & Light):
+
+Company Name/Logo text aligned left in Navy Blue.
+
+Nav links: Home, About, Services, Process, FAQ, Contact.
+
+A prominent "Get a Quote" CTA button on the right.
+
+2. Hero Section:
+
+Visual: A light-themed, high-quality background aesthetic (use a bright, polished Unsplash placeholder of a modern residential property interior or exterior).
+
+Headline: Maximizing the Value and Condition of Your Real Estate Investments.
+
+Sub-headline: From day-to-day operations to market transitions, we offer reliable, hands-on support every step of the way.
+
+CTA Buttons: "Explore Our Services" (Primary) and "Contact Us" (Secondary).
+
+3. About Us / Mission Section:
+
+A clean, elegant text section outlining the company's dedication to helping property owners seamlessly manage, repair, or transition their properties. Include a placeholder for a "Founder's Message" or team photo.
+
+4. Why Choose Kibby KiB LLC? (Trust Banner):
+
+A visually distinct banner (perhaps with a soft Navy Blue background and white text) highlighting 3-4 key pillars: e.g., "Reliable & Hands-On," "Comprehensive Care," "Transparent Communication."
+
+5. Core Services Section (Grid or Card Layout):
+
+Design highly visual cards with premium icons (in your accent color) for each category:
+
+Residential Property Management
+
+Tenant Placement
+
+Property Maintenance & Repairs
+
+Full Move-in/Move-out Coordination
+
+Demolition Services & Debris Removal
+
+Property Cleanouts (Preparation for renovation/rental/sale)
+
+6. Our Process (Step-by-Step):
+
+A numbered, timeline-style section showing how easy it is to work with you (e.g., 1. Consultation, 2. Property Assessment, 3. Execution & Management, 4. Maximized Returns).
+
+7. Client Testimonials (Social Proof):
+
+A clean carousel or grid of 3 placeholder reviews from satisfied property owners praising your reliability and comprehensive service.
+
+8. Frequently Asked Questions (Accordion):
+
+An interactive FAQ section with 3-4 dropdowns covering common queries (e.g., "What areas do you serve?", "How do you handle tenant screening?", "Do you handle large demolition projects?").
+
+9. Contact & Footer Section:
+
+Contact Form: A clean, functional-looking UI for users to send a message (Name, Email, Service Needed, Message).
+
+Contact Information Block: Prominently display the business address (304 Baltimore Ave, Folcroft PA 19032), phone number (833-310-4084), and email (info@Kibbykib.com).
+
+Footer: A rich Navy Blue footer with white text, containing copyright info, quick links, and social media icon placeholders.
+
+Technical Instructions:
+
+Ensure all React components are modular and well-commented.
+
+Provide the complete, runnable code structure so I can preview it immediately.
+
+Use Lucide-React or Heroicons for all icons.
