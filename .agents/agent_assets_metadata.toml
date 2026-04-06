@@ -1,0 +1,14 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "CyOZ6R_MN3LRJzbBsdsVJ"
+uri = "file://artifacts/kibby-kib/public/images/hero.png"
+type = "image"
+title = "Modern residential home exterior"
+
+[[generated]]
+id = "G9n1cVlIwxCVoRgk3sWC-"
+uri = "file://artifacts/kibby-kib/public/images/about.png"
+type = "image"
+title = "Professional real estate team"

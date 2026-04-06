@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Kibby KiB LLC"
+version = "1.0.0"
+id = "artifacts/kibby-kib"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18178
+
+[services.development]
+run = "pnpm --filter @workspace/kibby-kib run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kibby-kib", "run", "build" ]
+publicDir = "artifacts/kibby-kib/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18178"
+BASE_PATH = "/"

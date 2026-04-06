@@ -1,0 +1,79 @@
+Role: You are an expert frontend web developer and UI/UX designer. Your task is to build a modern, highly professional, and visually stunning single-page website for a comprehensive real estate management company named Kibby KiB LLC.
+
+Tech Stack: Use React (Next.js preferred), Tailwind CSS for responsive styling, and Framer Motion (or standard CSS transitions) for smooth, premium scroll animations.
+
+Business Information:
+
+Name: Kibby KiB LLC
+
+Address: 304 Baltimore Ave, Folcroft PA 19032
+
+Phone: 833-310-4084
+
+Email: info@Kibbykib.com
+
+Design & UI/UX Guidelines:
+
+Color Palette: Trustworthy and premium. Use deep navy blue or slate gray as primary colors to establish trust, crisp white for clean backgrounds, and a sharp accent color (like steel blue, muted gold, or amber) for buttons and icons.
+
+Typography: Clean, modern sans-serif fonts (e.g., Inter, Poppins, or Roboto) for high readability and a corporate feel.
+
+Layout: Fully responsive (mobile-first approach). Ensure plenty of whitespace to make the site feel airy and uncluttered.
+
+Animations: Include subtle fade-ins and slide-ups as the user scrolls down the page.
+
+Page Architecture & Content:
+
+1. Navigation Bar (Sticky):
+
+Company Name/Logo text aligned to the left.
+
+Nav links: Home, Services, About, Contact.
+
+A prominent "Call Now" or "Get a Quote" CTA button on the right.
+
+2. Hero Section:
+
+Visual: A sleek, high-quality background aesthetic (use a polished Unsplash placeholder image of a modern residential property or a clean architectural gradient).
+
+Headline: Maximizing the Value and Condition of Your Real Estate Investments.
+
+Sub-headline: From day-to-day operations to market transitions, we offer reliable, hands-on support every step of the way.
+
+CTA Buttons: "Explore Services" (Primary) and "Contact Us" (Secondary).
+
+3. About Us / Mission Section:
+
+A brief, elegant section highlighting the company's dedication to helping property owners seamlessly manage, repair, or transition their properties.
+
+4. Core Services Section (Grid or Card Layout):
+
+Design visually appealing cards with modern, minimalist icons for each service category:
+
+Residential Property Management
+
+Tenant Placement
+
+Property Maintenance & Repairs
+
+Full Move-in/Move-out Coordination
+
+Demolition Services & Debris Removal
+
+Property Cleanouts (Preparing properties for renovation, rental, or sale)
+
+5. Contact & Footer Section:
+
+Contact Form: A clean, functional-looking UI for users to send a message (Name, Email, Service Needed, Message).
+
+Contact Information Block: Prominently display the business address, phone number (833-310-4084), and email (info@Kibbykib.com).
+
+Footer: Copyright text and simple links.
+
+Technical Instructions:
+
+Ensure all React components are modular, clean, and well-commented.
+
+Provide the complete, runnable code structure so I can preview it immediately.
+
+Use Lucide-React or Heroicons for the service icons.
