@@ -7,10 +7,12 @@ WORKDIR /app
 COPY package.json pnpm-workspace.yaml pnpm-lock.yaml ./
 COPY tsconfig.json tsconfig.base.json ./
 COPY artifacts/api-server ./artifacts/api-server
+COPY artifacts/kibby-kib ./artifacts/kibby-kib
 COPY lib ./lib
 
 RUN pnpm install --frozen-lockfile
 
+RUN pnpm --filter @workspace/kibby-kib run build
 RUN pnpm --filter @workspace/api-server run build
 
 WORKDIR /app/artifacts/api-server

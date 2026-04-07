@@ -36,7 +36,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", router);
 
 // Serve frontend — adjust this path to match your actual build output
-const distPath = path.resolve(__dirname, "../../client/dist");
+const distPath = path.resolve(__dirname, "../../kibby-kib/dist");
 app.use(express.static(distPath));
 
 // Catch-all for client-side routing (must be last)
