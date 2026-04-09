@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { submitContactForm } from "@/lib/contact";
 import {
   Building2,
   Users,
@@ -228,14 +229,27 @@ export default function Home() {
     }
   };
 
-  const onSubmit = (values: z.infer<typeof contactFormSchema>) => {
-    console.log(values);
+const onSubmit = async (values: z.infer<typeof contactFormSchema>) => {
+  try {
+    await submitContactForm({
+      name: values.name,
+      email: values.email,
+      serviceneeded: values.service,
+      message: values.message,
+    });
     toast({
       title: "Message Sent!",
       description: "We'll be in touch as soon as possible.",
     });
     form.reset();
-  };
+  } catch (err) {
+    toast({
+      title: "Something went wrong",
+      description: "Please try again later.",
+      variant: "destructive",
+    });
+  }
+};
 
   const navLinks = [
     { label: "Home", id: "home" },
