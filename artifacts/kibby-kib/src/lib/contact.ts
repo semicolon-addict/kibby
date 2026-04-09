@@ -17,6 +17,7 @@ export async function submitContactForm(data: ContactFormData) {
 
   const response = await fetch(`${url}?${params.toString()}`, {
     method: "POST",
+    mode: "no-cors",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
