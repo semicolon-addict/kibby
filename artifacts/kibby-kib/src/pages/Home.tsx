@@ -276,7 +276,7 @@ const onSubmit = async (values: z.infer<typeof contactFormSchema>) => {
             onClick={() => scrollTo("home")}
           >
             <img
-              src="/artifacts/kibby-kib/public/images/favicon.png"
+              src="/images/favicon.png"
               alt="Kibby KiB LLC"
               className="h-12 w-auto object-contain"
             />
