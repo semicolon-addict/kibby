@@ -275,9 +275,11 @@ const onSubmit = async (values: z.infer<typeof contactFormSchema>) => {
             className="flex items-center gap-2.5 cursor-pointer"
             onClick={() => scrollTo("home")}
           >
-            <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center shadow-sm">
-              <span className="text-white font-bold text-base tracking-tight font-heading">KK</span>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Kibby KiB LLC"
+              className="h-12 w-auto object-contain"
+            />
             <span className="font-heading font-bold text-lg text-primary tracking-tight">
               Kibby KiB LLC
             </span>
