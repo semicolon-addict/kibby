@@ -886,7 +886,7 @@ const onSubmit = async (values: z.infer<typeof contactFormSchema>) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2.5 mb-5">
-                <div className="w-9 h-9 bg-amber-500 rounded-lg flex items-center justify-center">
+                <div className="w-9 h-9 bg-amber-500 rounded-xl flex items-center justify-center">
                   <img
                     src="/images/favicon.png"
                     alt="Kibby KiB LLC"
