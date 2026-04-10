@@ -890,7 +890,7 @@ const onSubmit = async (values: z.infer<typeof contactFormSchema>) => {
                   <img
                     src="/images/favicon.png"
                     alt="Kibby KiB LLC"
-                    className="h-10 w-auto object-contain brightness-0 invert"
+                    className="h-12 w-auto object-contain brightness-0 invert"
                   />
                 </div>
                 <span className="font-heading font-bold text-xl tracking-tight">Kibby KiB LLC</span>
