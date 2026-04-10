@@ -8,6 +8,10 @@ export interface ContactFormData {
 export async function submitContactForm(data: ContactFormData) {
   const url = import.meta.env.VITE_APPS_SCRIPT_URL;
 
+  if (!url) {
+    throw new Error("VITE_APPS_SCRIPT_URL is not set");
+  }
+
   const params = new URLSearchParams({
     name: data.name,
     email: data.email,
@@ -15,17 +19,8 @@ export async function submitContactForm(data: ContactFormData) {
     message: data.message,
   });
 
-  const response = await fetch(`${url}?${params.toString()}`, {
+  await fetch(`${url}?${params.toString()}`, {
     method: "POST",
     mode: "no-cors",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
   });
-
-  if (!response.ok) {
-    throw new Error("Submission failed");
-  }
-
-  return response.text();
 }
